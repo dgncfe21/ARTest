@@ -47,4 +47,4 @@ function renderPlaces(places) {
 
         scene.appendChild(text);
     });
-}
+};
