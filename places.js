@@ -13,21 +13,6 @@ window.onload = () => {
         // first get current user location
         return navigator.geolocation.getCurrentPosition(function (position) {
 
-            // than use it to load from remote APIs some places nearby
-            dynamicLoadPlaces(position.coords)
-                .then((places) => {
-                    renderPlaces(places);
-                })
-        },
-            (err) => console.error('Error in retrieving position', err),
-            {
-                enableHighAccuracy: true,
-                maximumAge: 0,
-                timeout: 27000,
-            }
-        );
-    }
-};
 
 function staticLoadPlaces() {
     return [
