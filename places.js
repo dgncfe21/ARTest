@@ -1,6 +1,6 @@
 
 window.onload = () => {
-    let method = 'dynamic';
+    let method = 'static';
 
     // if you want to statically add places, de-comment following line:
     // method = 'static';
@@ -34,7 +34,7 @@ function renderPlaces(places) {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
 
-        // add place name
+        // add place name 
         let text = document.createElement('a-link');
         text.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         text.setAttribute('title', place.name);
