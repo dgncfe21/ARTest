@@ -34,10 +34,10 @@ var models = [
         info: 'WIRE',
     },
     {
-        url: './assets/dragonite/scene.gltf',
+        url: './assets/orion/orion.gltf',
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
+        info: 'Orion',
     },
 ];
 
