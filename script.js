@@ -39,6 +39,12 @@ var models = [
         rotation: '0 180 0',
         info: 'Orion',
     },
+    {
+        url: './assets/subs/subs.gltf',
+        scale: '0.08 0.08 0.08',
+        rotation: '0 180 0',
+        info: 'Subs',
+    },
 ];
 
 var modelIndex = 0;
